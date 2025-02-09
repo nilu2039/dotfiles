@@ -1,0 +1,35 @@
+{
+  "$schema" : "https:\/\/schema.linearmouse.app\/0.10.0",
+  "schemes" : [
+    {
+      "pointer" : {
+        "acceleration" : 0,
+        "speed" : 0.0689655172413792768,
+        "disableAcceleration" : false
+      },
+      "scrolling" : {
+        "reverse" : {
+          "vertical" : false
+        },
+        "distance" : {
+          "vertical" : "auto"
+        },
+        "acceleration" : {
+          "vertical" : 1
+        },
+        "speed" : {
+          "vertical" : 0
+        }
+      },
+      "if" : {
+        "device" : {
+          "serialNumber" : "237D55BE23600E0D",
+          "category" : "mouse",
+          "vendorID" : "0x46d",
+          "productID" : "0xb019",
+          "productName" : "MX Master 2S"
+        }
+      }
+    }
+  ]
+}
