@@ -36,9 +36,13 @@ return {
     end
   },
   {
+    "davidmh/cspell.nvim",
+  },
+  {
     "nvimtools/none-ls.nvim",
     event="VeryLazy",
-    opts=function ()
+    depends = { "davidmh/cspell.nvim" },
+    opts = function ()
       return require("configs.none-ls")
     end
   },
@@ -123,6 +127,7 @@ return {
         "stylua",
         "tailwindcss-language-server",
         "typescript-language-server",
+        "cspell"
       }
     }
   }
