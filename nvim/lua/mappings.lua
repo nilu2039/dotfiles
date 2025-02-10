@@ -43,3 +43,5 @@ end, { desc = "Grep exact phrase in current buffer" })
 map("i", "<C-l>", function ()
   vim.fn.feedkeys(vim.fn['copilot#Accept'](), '')
 end, {desc = "Copilot Accept", nowait = true, silent = true, noremap = true})
+
+map("n", "<leader>h", "<cmd>Telescope buffers sort_mru=true sort_lastused=true initial_mode=normal theme=ivy<cr>", { desc = "Open Telescope buffers"})
